@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="design_index.css">
+    <title>Pagina de logare</title>
+    <body>
+       <div class="chenar">
+       <form action="verificare.php" method="post">
+            <input type="radio" name="domeniu" value="profesor" onclick="document.getElementById('inregpar').style.visibility = 'visible'">Profesor
+            <div id="inregpar" style="visibility:hidden"><input type="password" name="parr">
+			<a href="sch_par.php"><i>Schimba parola</i></a></div><br><br>
+            <input type="radio" name="domeniu" value="elev" onclick="document.getElementById('inregpar2').style.visibility = 'visible'">Elev
+			 <div id="inregpar2" style="visibility:hidden"><input type="password" name="parr1">
+			</div><br>
+			<span><input class="submit" type="submit" name="submit" value="Continua"></span>
+        </form>
+        </div>
+    </body>
+</html>

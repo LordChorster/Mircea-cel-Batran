@@ -1,0 +1,99 @@
+﻿body {
+    background-color: rgba(245,220,120,0.5);
+    margin:10% 20% 0 20%;
+}
+
+.chenar {
+    background-color: rgb(158, 20, 20);
+    opacity: 0.8;
+    width: auto;
+    padding-left:10%;
+	padding-right:10%;
+	padding-top:5%;
+	height:180px;
+    /*text-align: justify;*/
+    font-family:'Segoe UI';
+    font-size: 18px;
+    color: white;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-box-shadow: 0px 0px 50px 10px rgba(158, 20, 20, 0.6);
+    -moz-box-shadow: 0px 0px 50px 10px rgba(158, 20, 20, 0.6);
+    box-shadow: 0px 0px 50px 10px rgba(158, 20, 20, 0.6);
+    border:2px solid rgb(196, 92, 92);
+}
+
+.chenar a {
+    text-decoration: none;
+    margin-left: 15px;
+	float:right;
+	margin-top:40px;
+}
+
+.chenar a span {
+    color: white;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.chenar a :hover {
+    background-color: white;
+    color: rgb(158, 20, 20);
+}
+
+form #inregpar input, #inregpar2 input {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size: 18px;
+    width: 150px;
+    border:1px solid white;
+	position:absolute;
+	margin:10px;
+}
+
+form #inregpar a {
+	color:white;
+	position:absolute;
+}
+
+form #inregpar a  :hover {
+	color:white;
+	text-shadow:1px 1px 5px grey, -1px -1px 5px grey;
+	background-color:rgb(158, 20, 20);
+}
+
+form #inregpar, #inregpar2 {
+	display:inline;
+}
+
+form input {
+    margin-top: 15px;
+}
+
+form .submit {
+    margin-right:10px;
+	float:right;
+    background-color: white;
+    font-family:'Trebuchet MS';
+    font-size: 18px;
+    padding: 8px 10px 10px 10px;
+    color:rgb(158, 20, 20);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    opacity: 0.8;
+    border:3px solid white;
+    cursor: pointer;
+}
+
+form span :hover {
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(128, 128, 128, 0.3);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(128, 128, 128, 0.3);
+    box-shadow: 0px 0px 20px 2px rgba(128, 128, 128, 0.3);
+}
